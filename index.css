@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* css reset  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+a {
+    text-decoration: none;
+}
+
+.form{
+    background-color: whitesmoke;
+    width:500px;
+    height: 500px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0.5px solid #77777c;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.merah{
+    color: rgb(240, 40, 73);
+    display: none;
+}
+
+.merah.show1{
+    display: block;
+}
+
+.button{
+    background-color: white;
+    font-size: 30px;
+    margin-right: 100px;
+}
+.modal{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 247, 14, 0.9);
+}
+.modal.show{
+    display: block;
+}
+.modal-1{
+    position: relative;
+    width: auto;
+    margin: 300px auto;
+}
+.modal-2{
+    background-color:  whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+}
+.modal-2.modal-3{
+    padding-top: 100px;
+}
